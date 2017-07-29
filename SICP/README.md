@@ -4,15 +4,13 @@
 
 [Structure and Interpretation of Computer Program 英文原书链接](http://mitpress.mit.edu/sicp/)
 
-[《计算机程序的结构和解释》公开课 翻译项目](https://github.com/DeathKing/Learning-SICP)
-
 [裘宗燕 程序设计技术和方法](http://www.math.pku.edu.cn/teachers/qiuzy/progtech/)
 
 [SICP 的魔法](https://github.com/lfkdsk/SICP-Magical-Book)
 
 [SICP Python 描述 中文版](https://github.com/wizardforcel/sicp-py-zh)
 
-
+[sicp-pdf](https://github.com/sarabander/sicp-pdf)
 
 
 
@@ -26,12 +24,12 @@
 
 [Common Lisp 高级编程技术](http://www.ituring.com.cn/minibook/862) (《On Lisp》中文版)
 
-
 #### Scheme
 
 [Scheme 入门教程](http://deathking.github.io/yast-cn/) ([《Yet Another Scheme Tutorial》中文版](https://www.kancloud.cn/kancloud/yast-cn))
 
 [Scheme语言简明教程](https://www.gitbook.com/book/wizardforcel/teach-yourself-scheme/details)
+
 
 
 
@@ -43,3 +41,22 @@
 >
 >   使用 Racket 做教科书上的程序和习题可能遇到一些问题，可以安装与 MIT Scheme 的兼容包，见链接 [www.neilvandyke.org/racket-sicp/](http://www.neilvandyke.org/racket-sicp/)
 >   对简单程序，在 R5RS 语言选项下装入文件 [predefined.scm](http://www.math.pku.edu.cn/teachers/qiuzy/progtech/predefined.scm) 可以解决绝大部分问题。
+
+
+
+
+>   #### [ 编程入门指南](https://zhuanlan.zhihu.com/p/19959253) SICP辅助资源：
+>
+>   1.   [Udacity CS212 Design of Computer Program](https://cn.udacity.com/course/design-of-computer-programs--cs212)
+>
+>   2.   [How to Design Programs, Second Edition](http://www.ccs.neu.edu/home/matthias/HtDP2e/Draft/index.html)
+>
+>   3.   [cs61a:Structure and Interpretation of Computer Program](https://cs61a.org/)    [CS61A: Online Textbook](http://www-inst.eecs.berkeley.edu/~cs61a/sp12/book/index.html)    [《计算机程序的结构和解释》公开课 翻译项目](https://github.com/DeathKing/Learning-SICP)
+>
+>   4.   [Composing Programs](http://composingprograms.com/)
+>
+>   5.   [SICP 解题集](http://sicp.readthedocs.io/en/latest/index.html)
+>
+>   [Mega Project List](https://github.com/karan/Projects/)
+>
+>   [SICP终于看完了，有一些经验想分享出来](http://cocode.cc/t/sicp/3397)
