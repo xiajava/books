@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0063)http://www.math.pku.edu.cn/teachers/qiuzy/progtech/execises.htm -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"><title>《程序设计技术和方法》作业</title>
+
+
+<meta http-equiv="author" content="裘宗燕">
+<link rel="stylesheet" href="./《程序设计技术和方法》作业_files/basic.css" type="text/css">
+
+</head><body>
+<table class="c_table" cellspacing="1" align="center">
+  <tbody>
+  <tr>
+    <td class="c_subhead">“程序设计技术和方法”作业</td></tr>
+  <tr>
+    <td class="c_content">
+	<ul>
+		<li>务必标明姓名和学号。算法请尽可能写得清晰规整，加上必要注释
+		</li><li>作业应按时独立完成，在要求的截止日期前交。超过日期一周之内，成绩递减1/2，其余类推
+		</li><li>请将独立的程序文件和其他文件在教学网上载，给<font color="#FF0000">自己的</font>辅导老师，其他作业可用DOC或PDF格式的文件。
+		</li><li>各同学所指定的辅导老师见 “课程通知”
+		</li><li>凡是没有提出其他要求的习题，就应该写 Scheme 程序完成
+		</li><li>程序文件命名用统一形式：“PT-学号-作业序号.rkt” 或者 “PT-学号-作业序号.scm”，其他作业的文件也采用类似命名规则。如果一次作业有多个文件，再加上序号
+	</li></ul>
+	</td></tr><tr>
+    <td class="c_content">辅导教师：<br>
+	<div>
+		<a href="mailto:sicp2014@pku.edu.cn">刘海洋</a>　分工负责：数学学院和其他学院同学<br>
+		<a href="mailto:pkuxys@163.com">徐源盛</a>　分工负责：信息学院同学<br>
+	</div>
+	</td>
+  </tr>
+	<tr>
+    <td class="c_content">
+	<a href="http://www.math.pku.edu.cn/teachers/qiuzy/progtech/scheme/mit_scheme.htm">MIT Scheme 系统入门（新扩充了不少内容，特别是 Edwin 的使用）</a>　　　<a href="http://www.math.pku.edu.cn/teachers/qiuzy/progtech/scheme/first-use.ppt">姚金宇有关 Scheme 入门的幻灯片</a>
+	</td>
+  </tr>
+</tbody></table>
+<table class="c_table" cellspacing="1" align="center">
+<colgroup width="16" align="middle">
+</colgroup><colgroup width="36" align="middle">
+</colgroup><colgroup width="36" align="middle">
+  </colgroup><tbody>
+  <tr valign="top">
+    <td class="c_content">序号</td>
+	<td class="c_content">布置日期</td>
+	<td class="c_content">提交截止日期</td>
+    <td class="c_content">作业内容
+	</td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">9</td>
+	<td class="c_content">5.7</td>
+	<td class="c_content">6.7</td>
+    <td class="c_content"><a href="http://www.math.pku.edu.cn/teachers/qiuzy/progtech/projects/project2.htm">第二个大作业说明网页</a>。
+	</td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">8</td>
+	<td class="c_content">4.16</td>
+	<td class="c_content">4.30（已延长到5月7日）</td>
+    <td class="c_content">第一次大作业。请在下面两个问题中任选一个完成：
+	<ul>
+	<li><a href="http://www.math.pku.edu.cn/teachers/qiuzy/progtech/projects/proj1/integrate.htm">开发一个简单的积分系统</a>
+	</li><li><a href="http://www.math.pku.edu.cn/teachers/qiuzy/progtech/projects/proj2/Genetic-Arith.htm">通用算术包的一些扩充（来自 MIT SICP 课程）</a>
+</li></ul>
+	</td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">7</td>
+	<td class="c_content">4.9</td>
+	<td class="c_content">4.16</td>
+    <td class="c_content">1，完成练习3.23 并用它一些操作试验。<p>
+2，收集有关数字电路模拟的所有定义，在其基础上实现两个电路并做一些模拟（请自己找两个典型的简单电路）。将所做工作的一个简单报告和代码一起提交辅导老师。
+	</p></td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">6</td>
+	<td class="c_content">4.2</td>
+	<td class="c_content">4.9</td>
+    <td class="c_content">完成下面练习：
+<ul>
+<li>3.3
+</li><li>3.5
+</li></ul>    
+	</td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">5</td>
+	<td class="c_content">3.26</td>
+	<td class="c_content">4.2</td>
+    <td class="c_content">完成并提交：
+<ul>
+<li>2.75
+</li><li>2.78
+</li><li>2.80
+</li><li>2.87
+</li><li>2.88
+</li></ul>
+附件 <a href="http://www.math.pku.edu.cn/teachers/qiuzy/progtech/gen-arith.scm">gen-arith.scm</a> 已经给出了通用型操作算术系统的关键实现，以及一个有理数包。你需要按书上的内容添加其他需要的包，并完成习题。<br>
+
+为了方便，后面几个作业题可以写在同一个文件里面。<br>
+
+你的程序不仅包括定义，也应该包括对各个类型的一些测试代码，以验证你的定义可以正确工作。<p>
+
+自己阅读思考如下习题（不交）：<br>
+
+2.76、2.77、2.81~2.85、2.92
+	</p></td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">4</td>
+	<td class="c_content">3.19</td>
+	<td class="c_content">3.26</td>
+    <td class="c_content">完成下面练习：<p>
+扩充书上的求导程序（参考书上习题2.56,57,58，考虑三角函数等常用函数），并尽可能做一些结果表达式的化简。与做好的程序一起上交一个说明文件，说明你做的扩充和其他工作。在程序里加必要的注释，帮助批改作业的老师理解你的程序。</p><p>
+	阅读和考虑书上的下面问题（不交）：<br>
+	查看有关painter部分的习题，试着完成几个系统要求做和过程。<br>
+	阅读书上有关集合的树形实现和Huffman编码部分，弄懂相关过程，考虑相关习题。	</p></td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">3</td>
+	<td class="c_content">3.12</td>
+	<td class="c_content">3.19</td>
+    <td class="c_content">请完成下面练习：2.18，2.20，2.27，2.41
+	</td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">2</td>
+	<td class="c_content">3.5</td>
+	<td class="c_content">3.12</td>
+    <td class="c_content">请完成下面作业：
+	1.29，1.33, 1.37, 1.40, 1.44 <p>
+	选做和思考（不交）：
+	1.32, 1.34, 1.35, 1.46
+	</p></td>
+  </tr>
+  <tr valign="top">
+    <td class="c_content">1</td>
+	<td class="c_content">2.26</td>
+	<td class="c_content">3.5</td>
+    <td class="c_content">下面内容需要完成，并交给你的辅导老师：<br>
+    书中习题 1.8，1.11, 1.16，1.18，1.28 <p>
+	请尽可能自己做做下面习题（不交）
+	</p><ul>
+	<li>查读语言手册（或 Racket 手册）中有关基本数据类型的部分
+	</li><li>思考习题 1.5，1.6，1.10，1.20，1.26
+	</li></ul>
+	</td>
+  </tr>
+</tbody></table>
+
+<table style="MARGIN-TOP: 20px" align="center">
+  <tbody>
+  <tr>
+    <td style="HEIGHT: 13px"></td></tr>
+  <tr>
+    <td style="BACKGROUND: url(img/footer_01.gif); FONT: 11px Verdana; VERTICAL-ALIGN: top; COLOR: black; PADDING-TOP: 0px; HEIGHT: 14px; TEXT-ALIGN: center">本页及相关页面（除另声明者外）由<a href="mailto:qzy@math.pku.edu.cn">裘宗燕</a>创建维护，可自由用于各种学习活动。其他使用需得到作者许可。</td></tr>
+</tbody></table>
+
+
+</body></html>
