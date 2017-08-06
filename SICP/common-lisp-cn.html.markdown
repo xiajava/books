@@ -1,4 +1,25 @@
+---
+language: "Common Lisp"
+filename: commonlisp-cn.lisp
+contributors:
+  - ["Paul Nathan", "https://github.com/pnathan"]
+translators:
+  - ["Mac David", "http://macdavid313.com"]
+  - ["mut0u", "http://github.com/mut0u"]
+lang: zh-cn
+---
 
+ANSI Common Lisp 是一个广泛通用于各个工业领域的、支持多种范式的编程语言。
+这门语言也经常被引用作“可编程的编程语言”（可以写代码的代码）。
+
+免费的经典的入门书籍[《实用 Common Lisp 编程》](http://www.gigamonkeys.com/book/)
+
+许多人都抱怨上面这本书的翻译。[《ANSI Common Lisp》](http://acl.readthedocs.org/en/latest/)也许对中文读者更友好一些。
+
+另外还有一本热门的近期出版的
+[Land of Lisp](http://landoflisp.com/).
+
+```common-lisp
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; 0. 语法
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -587,4 +608,19 @@ nil                  ; 逻辑假，或者空列表
 ;; 而在宏中声明的变量名极有可能和常规代码中使用的变量名发生冲突。
 
 ;; 可以去《实用 Common Lisp 编程》中阅读更多有关宏的内容。
+```
 
+
+## 拓展阅读
+
+[继续阅读《实用 Common Lisp 编程》一书](http://www.gigamonkeys.com/book/)
+
+
+## 致谢
+
+非常感谢Scheme社区的人们，我基于他们的成果得以迅速的写出这篇有关Common Lisp的快速入门
+同时也感谢
+- [Paul Khuong](https://github.com/pkhuong) ，他提出了很多有用的点评。
+
+##译者寄语
+“祝福那些将思想镶嵌在重重括号之内的人们。”

@@ -1,4 +1,20 @@
+---
 
+language: racket
+lang: zh-cn
+filename: learnracket-zh.rkt
+contributors:
+  - ["th3rac25", "https://github.com/voila"]
+  - ["Eli Barzilay", "https://github.com/elibarzilay"]
+  - ["Gustavo Schmidt", "https://github.com/gustavoschmidt"]
+translators:
+    - ["lyuehh", "https://github.com/lyuehh"]
+---
+
+Racket是Lisp/Scheme家族中的一个通用的，多范式的编程语言。
+非常期待您的反馈！你可以通过[@th3rac25](http://twitter.com/th3rac25)或以用户名为 th3rac25 的Google邮箱服务和我取得联系
+
+```racket
 #lang racket ; 声明我们使用的语言
 
 ;;; 注释
@@ -585,4 +601,8 @@ vec ; => #(1 2 3 4)
 ;; expected: positive?
 ;; given: -5
 ;; more details....
+```
 
+## 进一步阅读
+
+想知道更多吗？ 尝试 [Getting Started with Racket](http://docs.racket-lang.org/getting-started/)
