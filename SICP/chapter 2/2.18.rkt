@@ -1,5 +1,5 @@
 #!/usr/bin/racket
-#lang sicp
+#lang racket
 
 (define (reverse L)
     (define (iter L result)
