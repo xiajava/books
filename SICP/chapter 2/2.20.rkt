@@ -1,5 +1,5 @@
 #!/usr/bin/racket
-#lang sicp
+#lang racket
 
 (define (parity? a b)
     (= (remainder (- a b) 2) 0))

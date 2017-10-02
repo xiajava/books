@@ -1,5 +1,5 @@
 #!/usr/bin/racket
-#lang sicp
+#lang racket
 
 (define (last-pair L)
     (cond ((null? L) 
@@ -11,4 +11,3 @@
 
 (last-pair (list 23))
 (last-pair (list 23 72 149 34))
-

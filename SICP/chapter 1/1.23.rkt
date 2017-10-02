@@ -6,13 +6,13 @@
 
 (define (prime? n)
 
-    (define (next n)
-        (if (= n 2)
+    (define (next t)
+        (if (= t 2)
             3
-            (+ n 2)))
+            (+ t 2)))
 
-    (define (smallest-divisor n)
-        (find-divisor n 2))
+    (define (divides? a b)
+        (= (remainder b a) 0))
 
     (define (find-divisor n test-divisor)
         (cond ((> (square test-divisor) n)
@@ -20,10 +20,10 @@
             ((divides? test-divisor n)
                 test-divisor)
             (else
-                (find-divisor n (next test-divisor))))) 
+                (find-divisor n (next test-divisor)))))
 
-    (define (divides? a b)
-        (= (remainder b a) 0))
+    (define (smallest-divisor n)
+        (find-divisor n 2))
 
     (= n (smallest-divisor n)))
 
